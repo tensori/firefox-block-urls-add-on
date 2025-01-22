@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Block urls",
+  "version": "1.0",
+  "description": "Really simple firefox add-on for blocking urls",
+  "icons": {
+    "48": "icons/block-48.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "background": {
+    "scripts": ["block-urls.js"]
+  }
+}
